@@ -1,0 +1,15 @@
+/autom4te.cache/
+/po/
+/data/
+/src/.deps/
+/build/
+/aclocal.m4
+/config.*
+/configure
+/src/yad
+/stamp-*
+
+*.o
+*.gmo
+Makefile
+Makefile.in

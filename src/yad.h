@@ -181,6 +181,7 @@ typedef struct {
   GtkButtonBoxStyle buttons_layout;
   /* window settings */
   gboolean sticky;
+  gboolean splash;
   gboolean fixed;
   gboolean ontop;
   gboolean center;

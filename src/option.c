@@ -204,6 +204,12 @@ static GOptionEntry general_options[] = {
    &options.data.sticky,
    N_("Set window sticky"),
    NULL},
+  {"splash", 0,
+   0,
+   G_OPTION_ARG_NONE,
+   &options.data.splash,
+   N_("Make window splashscreen (unfocused on-top)"),
+   NULL},
   {"fixed", 0,
    0,
    G_OPTION_ARG_NONE,
@@ -2018,6 +2024,7 @@ yad_options_init (void)
 
   /* Initialize window options */
   options.data.sticky = FALSE;
+  options.data.splash = FALSE;
   options.data.fixed = FALSE;
   options.data.ontop = FALSE;
   options.data.center = FALSE;
